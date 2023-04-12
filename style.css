@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+.font1 {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.font2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.sky {
+    background-color: rgb(244, 249, 252);
+}
+/* rgb(211, 235, 227); */
+
+.color1 {
+color : rgb(221, 62, 88);
+}
+
+.bg-color1 {
+    background-color:rgb(221, 62, 88) ;
+}
+
+.color2 {
+   /* color: rgb(26, 26, 97); */
+   color: rgb(34,58,102)
+   
+}
+
+.bg-color2 {
+    background-color:rgb(26, 26, 97) ;
+}
+
+.button2 {
+    font-weight: bold;
+    font-size: 5%;
+}
+
+.color2-fade {
+    color: rgb(79, 79, 129);
+ }
+
+
+#section1 {
+   
+    background: url('images/slider-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    height: 500px;
+   
+}
+
+
+
+@media(max-width : 768px) {
+    #section1 {
+        background: #fff;
+    }
+}
+
+
+#section1 h1 {
+ 
+   font-weight: bold;
+}
+
+
+ 
+
+
+ .bg-overlay {
+    background-color: rgba(26, 26, 97,0.8) ;
+}
+
+#section4 h1 {
+ 
+   
+    font-weight: 900;
+    font-size: 5rem;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+ hr {
+   border : 3px solid rgb(221, 62, 88);
+   width: 3%;
+}
+
+.line {
+border : 3px solid rgb(221, 62, 88);
+   width: 10%; 
+}
+
+/* 
+.img1 {
+    background: url('images/img-3.jpg');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    height: 100%;
+} */
+
+.img1 {
+   height: 80%;
+    width: 50%;
+}
+
+/* .overlay {
+    background: rgba(26, 26, 97,0.7);
+    height: 100%;
+
+} */
+
+.space {
+    margin-top: 20%;
+}
+.number {
+    margin-top: 87%;
+    margin-right: -8%;
+    padding: 5%;
+    /* margin-right: -45px; */
+   
+}
+
+@media (max-width : 576px) {
+    #persona-care h1 {
+    padding-top: 85px ;
+    }
+}
+
+
+.left {
+    margin-left: -85%;
+}
+
+.white-color {
+    background-color: antiquewhite;
+}
+
+.bottom-li {
+    border-bottom: 1px solid rgb(79, 79, 129);
+}
+
+.shape1 {
+    height: 30%;
+}
+
+.bdr {
+    border-radius: 8%;
+   
+    border: 3px  #fff;
+    min-width: 45px;
+    padding: auto;
+   
+    
+}
+
+.mr {
+    margin-top: -7%;
+
+}
